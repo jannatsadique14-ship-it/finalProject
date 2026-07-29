@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>Bake With Love | Jannat</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ================= HEADER ================= -->
+<header>
+<nav>
+<div class="logo">
+<span>BAKE</span>
+<small>with love</small>
+</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#cakes">Cakes</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="nav-right">
+<button id="themeBtn">
+🌙
+</button>
+<div class="cart-box">
+🛒 <span id="cartCount">0</span>
+</div>
+<button class="menu-btn">
+☰
+</button>
+</div>
+</nav>
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="hero-text">
+
+<p class="hero-small">
+
+✦ PREMIUM BAKERY STUDIO ✦
+
+</p>
+
+<h1>
+
+Bake With Love
+
+</h1>
+
+<h2>
+
+Every Bite Feels Like Heaven 🍓
+
+</h2>
+
+<p>
+
+Elegant handcrafted cakes made with love,
+premium ingredients and beautiful designs
+for every special celebration.
+
+</p>
+
+<div class="hero-buttons">
+
+<button id="orderBtn">
+
+Order Now
+
+</button>
+
+<button id="exploreBtn">
+
+Explore Collection
+
+</button>
+
+</div>
+
+<p class="designer">
+
+✨ Designed & Developed by Jannat ✨
+
+</p>
+
+</div>
+
+<div class="hero-image">
+
+<img
+src="images/hero-cake.jpg"
+alt="Luxury Cake">
+
+<div class="floating-card one">
+
+🍰 Premium Cakes
+
+</div>
+
+<div class="floating-card two">
+
+⭐ Fresh Every Day
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+<div class="about-content">
+
+<div class="about-image">
+
+<img src="images/hero-chef.png" alt="Jannat Chef">
+
+</div>
+
+<div class="about-text">
+
+<p class="section-small">
+
+MEET THE BAKER
+
+</p>
+
+<h2>
+
+Hello, I'm Jannat ❤️
+
+</h2>
+
+<p>
+
+Welcome to <strong>Bake With Love</strong>, where every cake is crafted with passion,
+creativity and the finest ingredients. I believe every celebration deserves
+a beautiful and delicious masterpiece.
+
+</p>
+
+<p>
+
+From birthdays to weddings, every order is made fresh with love,
+care and premium quality.
+
+</p>
+
+<button id="discoverBtn">
+
+Discover My Cakes 🍰
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+<div class="stat-box">
+
+<h2>500+</h2>
+
+<p>Happy Customers</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>100+</h2>
+
+<p>Cake Designs</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>5+</h2>
+
+<p>Years Experience</p>
+
+</div>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section id="categories">
+
+<p class="section-small">
+
+OUR COLLECTIONS
+
+</p>
+
+<h2>
+
+Sweet Categories
+
+</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+
+🎂
+
+<h3>Birthday Cakes</h3>
+
+</div>
+
+<div class="category-card">
+
+💍
+
+<h3>Wedding Cakes</h3>
+
+</div>
+
+<div class="category-card">
+
+🧁
+
+<h3>Cupcakes</h3>
+
+</div>
+
+<div class="category-card">
+
+🍪
+
+<h3>Desserts</h3>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= CAKES ================= -->
+
+<section id="cakes">
+
+<p class="section-small">
+OUR SIGNATURE CAKES
+</p>
+
+<h2>
+Most Loved Cakes
+</h2>
+
+<input
+type="text"
+id="searchInput"
+placeholder="🔍 Search your favourite cake...">
+<p id="noCake" style="display:none; color:#c0392b; font-weight:bold; margin-top:15px;">
+    ❌ No Cake Found
+</p>
+
+<div class="cake-container" id="cakeContainer">
+
+<!-- Cake 1 -->
+
+<div class="cake-card">
+
+<img src="images/chocolate-cake.jpg"
+alt="Chocolate Cake">
+
+<h3>
+Chocolate Dream
+</h3>
+
+<p>
+Rich chocolate sponge layered with silky premium chocolate cream.
+</p>
+
+<h4>
+Rs. 2500
+</h4>
+
+<div class="cake-buttons">
+
+<button
+class="cart-btn">
+
+🛒 Add To Cart
+
+</button>
+
+<button
+class="fav-btn">
+
+🤍
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Cake 2 -->
+
+<div class="cake-card">
+
+<img src="images/strawberry-cake.jpg"
+alt="Strawberry Cake">
+
+<h3>
+Strawberry Romance
+</h3>
+
+<p>
+Fresh strawberry flavour with soft vanilla cream and berries.
+</p>
+
+<h4>
+Rs. 3000
+</h4>
+
+<div class="cake-buttons">
+
+<button
+class="cart-btn">
+
+🛒 Add To Cart
+
+</button>
+
+<button
+class="fav-btn">
+
+🤍
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Cake 3 -->
+
+<div class="cake-card">
+
+<img src="images/redvelvet-cake.jpg"
+alt="Red Velvet Cake">
+
+<h3>
+Red Velvet Elegance
+</h3>
+
+<p>
+Luxury red velvet cake finished with smooth cream cheese frosting.
+</p>
+
+<h4>
+Rs. 3500
+</h4>
+
+<div class="cake-buttons">
+
+<button
+class="cart-btn">
+
+🛒 Add To Cart
+
+</button>
+
+<button
+class="fav-btn">
+
+🤍
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TODAY SPECIAL ================= -->
+
+<section class="special">
+
+<p class="section-small">
+
+TODAY'S SPECIAL
+
+</p>
+
+<h2>
+
+Chef's Recommendation 🍓
+
+</h2>
+
+<div class="special-card">
+
+<img
+id="specialCake"
+src="images/chef-recommended-cake.jpg"
+alt="Today's Special">
+
+<h3 id="specialName">
+
+Chocolate Dream
+
+</h3>
+
+<p id="specialPrice">
+
+Rs. 2500
+
+</p>
+
+<button
+id="randomCakeBtn">
+
+🎲 Show Another Cake
+
+</button>
+
+</div>
+
+</section>
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery">
+
+<p class="section-small">
+
+OUR GALLERY
+
+</p>
+
+<h2>
+
+Sweet Moments
+
+</h2>
+
+<div class="gallery">
+
+<img src="images/wedding-cake.jpg" alt="Wedding Cake">
+
+<img src="images/cupcake.jpg" alt="Cupcake">
+
+<img src="images/gallery-cake.jpg" alt="Luxury Cake">
+
+<img src="images/rose-bliss-cake.jpg" alt="Rose Bliss Cake">
+
+<img src="images/heart-bliss-cake.jpg" alt="Heart Bliss Cake">
+
+<img src="images/bento-cake.jpg" alt="Bento Cake">
+
+</div>
+
+</section>
+
+<!-- ================= REVIEWS ================= -->
+
+<section class="reviews">
+
+<p class="section-small">
+
+CUSTOMER LOVE
+
+</p>
+
+<h2>
+
+What Our Customers Say ❤️
+
+</h2>
+
+<div class="review-container">
+
+<div class="review-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"The cake was absolutely beautiful and delicious.
+Everyone loved it!"
+
+</p>
+
+<h4>
+
+— Sarah
+
+</h4>
+
+</div>
+
+<div class="review-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"Fresh, soft and perfectly decorated.
+Highly recommended!"
+
+</p>
+
+<h4>
+
+— Ayesha
+
+</h4>
+
+</div>
+
+<div class="review-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"My wedding cake was exactly how I imagined it.
+Thank you Bake With Love."
+
+</p>
+
+<h4>
+
+— Hania
+
+</h4>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<p class="section-small">
+
+CONTACT US
+
+</p>
+
+<h2>
+
+Let's Bake Something Sweet 🍰
+
+</h2>
+
+<form id="contactForm">
+
+<input
+id="name"
+type="text"
+placeholder="Your Name"
+required>
+
+<input
+id="email"
+type="email"
+placeholder="Your Email"
+required>
+
+<textarea
+id="message"
+placeholder="Tell us about your dream cake..."
+required></textarea>
+
+<button
+type="submit">
+
+Send Request
+
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-logo">
+
+<h2>
+
+BAKE
+
+</h2>
+
+<span>
+
+with love
+
+</span>
+
+</div>
+
+<p>
+
+✨ Every Bite Feels Like Heaven ✨
+
+</p>
+
+<p>
+
+Made with ❤️ by Jannat
+
+</p>
+
+<p>
+
+© 2026 Bake With Love. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
